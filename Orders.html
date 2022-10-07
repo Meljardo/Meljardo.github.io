@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>Star Painting Orders</title>
+<meta charset="utf-8"> 
+<link rel="stylesheet" href="finalproj.css">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+</head>
+<body>
+<h1 class="Center ordersText">Place an order here.</h1>
+<nav class="Center">
+	<a href="index.html" class="myButton">Home</a>
+	<a href="catalog.html" class="myButton">Catalog</a>
+	<a href="Orders.html" class="myButton">Orders</a>
+</nav>
+<br/><br/>
+<div class="Center">
+	<form method="post" action="thisisblank">
+		<label for="prePainted" class="label">Prepainted Miniatures.<br/><br/>Please choose from list:</label>
+			<input type="radio" name="orderType" id="prePainted" required>
+	</form>
+	<br/>
+	<form method="post" action="thisisblank">
+		<label for="hobgobmage">1: Hobgoblin Mage</label>
+			<input type="checkbox" name="hobgobmage" id="hobgobmage">
+		<label for="hobgonwarr" class="label">2: Hobgoblin Warrior</label>
+			<input type="checkbox" name="hobgonwarr" id="hobgonwarr">
+		<label for="allip" class="label">3: Allip</label>
+			<input type="checkbox" name="allip" id="allip">
+		<label for="ghast" class="label">4: Armored Ghast</label>
+			<input type="checkbox" name="ghast" id="ghast">
+		<label for="gobarcher" class="label">5: Goblin Archer</label>
+			<input type="checkbox" name="gobarcher" id="gobarcher">
+		<label for="gobbers" class="label">6: Goblin Berserker</label>
+			<input type="checkbox" name="gobbers" id="gobbers">
+		<label for="gobmace" class="label">7: Goblin Mace-bearer</label>
+			<input type="checkbox" name="gobmace" id="gobmace">
+			
+		<label for="gobchop" class="label">8: Goblin Chopper</label>
+			<input type="checkbox" name="gobchop" id="gobchop">
+		<label for="gobspear" class="label">9: Goblin Spearman</label>
+			<input type="checkbox" name="gobspear" id="gobspear">
+		<label for="gobwarr" class="label">10: Goblin Warrior</label>
+			<input type="checkbox" name="gobwarr" id="gobwarr">
+	</form>	
+	<br/>
+	<form method="post" action="thisisblank">		
+			
+		<label for="preCustom">Custom Miniatures:<br/><br/>Please indicate miniature size:</label>
+			<input type="radio" name="orderType" id="preCustom" required>
+	</form>
+	<br/>
+	<form method="post" action="thisisblank">
+		<label for="small">Small: $5</label>
+			<input type="checkbox" name="small" id="small">
+		<label for="medium">Medium: $10</label>
+			<input type="checkbox" name="medium" id="medium">
+		<label for="large">Large: $30</label>
+			<input type="checkbox" name="large" id="large">
+	</form>
+	<br/>
+	<form method="post" action="thisisblank">
+		<label for="myRequest">Requests:</label>
+			<textarea name="myRequest" id="myRequest" rows="4" cols="20"></textarea>
+	</form>
+	<form method="post" action="thisisblank">
+		<label for="myName">*Name:</label>
+			<input type="text" name="myName" id="myName" required="required" placeholder="Your first and last name">
+		<label for="myPaypal">*Paypal:</label>
+			<input type="email" name="myPaypal" id="myPaypal" required="required" placeholder="you@yourdomain.com">
+		<input id="mySubmit" type="submit" value="Submit" class="myButton">
+	</form>
+</div>
+<footer class="Center">
+	Copyright &copy; 2021 Star Minatures Painting<br>
+	Contact: <a href="mailto:StarMP@gmail.com">StarMP@gmail.com</a>
+</footer>
+</body>
+</html>

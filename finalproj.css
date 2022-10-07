@@ -1,0 +1,120 @@
+.myButton {
+	background:    #0F8AC3;
+	border:        2px solid #000000;
+	border-radius: 1000px;
+	box-shadow:    4px 4px #444444;
+	padding:       5px 9px;
+	color:         #ffffff;
+	display:       block center; /*w3 validator says center is not a valid display value but the buttons stretch out weirdly without it*/ 
+	font:          normal bold 20px/1 "Calibri", sans-serif;
+	text-align:    center;
+	text-decoration: none;
+}
+.myButton:active {
+  background-color: #3e8e41;
+  box-shadow: 2px 2px #444444;
+  transform: translateY(4px);
+}
+/*I know we did not learn this in class, but I used the W3Schools site to learn how to animate buttons using active and transform: translate*/
+.Center {
+    text-align: center;
+	width: 100%;
+}
+.dragonText {
+	position: absolute;
+	top: -5px;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: -1px -1px #000000, 1px -1px #000000, -1px 1px #000000, 1px 1px #000000;
+	font-size: 3em;
+	font-family: 'Brush Script MT', cursive;
+}
+dt {
+	font-size: 2em;
+	font-weight: bold;
+}
+dd {
+	font-size: 1.3em;
+}
+body {
+	background-image: url("images/parchment.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+footer {
+	padding-bottom: 1px;
+	color: #FFFFFF;
+	text-shadow: -1px -1px #000000, 1px -1px #000000, -1px 1px #000000, 1px 1px #000000;
+}
+a:link {
+	color: #FFFFFF;
+	text-shadow: -1px -1px #000000, 1px -1px #000000, -1px 1px #000000, 1px 1px #000000;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.right {
+	float: right;
+	position: relative;
+	top: -68px;
+}
+.left {
+	float: left;
+}
+.imgsizel {
+	float: left;
+	width: auto;
+	max-height: 100px;
+	margin-left: 100px;
+	border: 5px solid #555;
+
+}
+.imgsize2 {
+	position: relative;
+	top: -53px;
+	max-height: 100px;
+	width: auto;
+	float: right;
+	margin-right: 100px;
+	border: 5px solid #555;
+}
+.block {
+	display: block;
+}
+h2 {
+	font-size: 2em;
+}
+.ordersText {
+	color: #FFFFFF;
+	text-shadow: -1px -1px #000000, 1px -1px #000000, -1px 1px #000000, 1px 1px #000000;
+	font-size: 3em;
+	font-family: 'Brush Script MT', cursive;
+}
+form {
+	font-family: Arial, sans-serif;
+    padding: 10px;
+	max-width: 100%;
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+label { 
+	float: left;
+	width: 50%; 
+	clear: left;
+	text-align: right; 
+	margin-top: 4px; 
+}
+input, textarea { 
+	margin-top: 10px; 
+    display: block; 
+	text-align: center;
+} 
+#mySubmit { 
+	margin-left: 46.5%;
+}
